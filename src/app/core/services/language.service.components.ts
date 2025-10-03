@@ -12,20 +12,34 @@ export class LanguageService {
   public translationsLoaded$ = this.translationsLoadedSubject.asObservable();
 
   constructor(private translate: TranslateService) {
-    this.translate.setFallbackLang('es');
+    // Inicializar con el idioma actual del TranslateService
+    this.currentLanguageSubject.next(this.translate.currentLang || 'es');
+
+    // Escuchar cambios de idioma
+    this.translate.onLangChange.subscribe(event => {
+      this.currentLanguageSubject.next(event.lang);
+      this.translationsLoadedSubject.next(true);
+    });
+
     this.initializeTranslations();
   }
 
   private initializeTranslations() {
-    this.translate.use('es').subscribe({
-      next: () => {
-        this.translationsLoadedSubject.next(true);
-      },
-      error: (error) => {
-        console.error('Error loading translations:', error);
-        this.translationsLoadedSubject.next(false);
-      }
-    });
+    // Verificar si las traducciones ya están cargadas
+    if (this.translate.currentLang) {
+      this.translationsLoadedSubject.next(true);
+    } else {
+      // Si no hay idioma actual, usar español por defecto
+      this.translate.use('es').subscribe({
+        next: () => {
+          this.translationsLoadedSubject.next(true);
+        },
+        error: (error) => {
+          console.error('Error loading translations:', error);
+          this.translationsLoadedSubject.next(false);
+        }
+      });
+    }
   }
 
   getCurrentLanguage(): string {
