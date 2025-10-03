@@ -1,0 +1,60 @@
+<section class="hero">
+  <div class="container">
+    <!-- Badge -->
+    <div class="hero-badge">
+      <svg class="badge-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+      </svg>
+      {{ 'HERO.BADGE' | translate }}
+    </div>
+
+    <!-- Main Title -->
+    <h1 class="hero-title">
+      {{ 'HERO.TITLE' | translate }}
+    </h1>
+
+    <!-- Subtitle -->
+    <h2 class="hero-subtitle">
+      {{ 'HERO.SUBTITLE' | translate }}
+    </h2>
+
+    <!-- Description -->
+    <p class="hero-description">
+      {{ 'HERO.DESCRIPTION' | translate }}
+    </p>
+
+    <!-- Arrow Indicators -->
+    <div class="hero-arrows">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 5v14M19 12l-7 7-7-7"/>
+      </svg>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 5v14M19 12l-7 7-7-7"/>
+      </svg>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 5v14M19 12l-7 7-7-7"/>
+      </svg>
+    </div>
+
+    <!-- CTA Button -->
+    <div class="hero-cta">
+      <button class="cta-button" (click)="goToSignup()">
+        <svg class="cta-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 6v6l4 2"/>
+        </svg>
+        {{ 'HERO.CTA' | translate }}
+        <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </button>
+      <button class="cta-secondary" (click)="goToLogin()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </button>
+    </div>
+
+    
+  </div>
+</section>

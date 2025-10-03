@@ -1,0 +1,37 @@
+<section id="faq" class="faq-questions">
+  <div class="container">
+    <!-- Header -->
+    <div class="faq-header">
+      <div class="faq-badge">
+        <svg class="badge-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+        </svg>
+        {{ 'FAQ.BADGE' | translate }}
+      </div>
+      <h2 class="faq-title">
+        {{ 'FAQ.TITLE' | translate }}
+        <span class="faq-title-accent">{{ 'FAQ.TITLE_ACCENT' | translate }}</span>
+      </h2>
+    </div>
+
+    <!-- FAQ Items -->
+    <div class="faq-items">
+      <div class="faq-item" *ngFor="let questionKey of getFaqQuestions(); let i = index" 
+           [class.active]="activeQuestion === i"
+           (click)="toggleQuestion(i)">
+        <div class="faq-question">
+          <h3 class="question-text">{{ questionKey | translate }}</h3>
+          <div class="question-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="5" x2="12" y2="19"/>
+              <line x1="5" y1="12" x2="19" y2="12"/>
+            </svg>
+          </div>
+        </div>
+        <div class="faq-answer" [class.active]="activeQuestion === i">
+          <p class="answer-text">{{ getFaqAnswers()[i] | translate }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,96 @@
+<section id="pricing" class="plans">
+  <div class="container">
+    <!-- Header -->
+    <div class="plans-header">
+      <div class="plans-badge">
+        <svg class="badge-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+        </svg>
+        {{ 'PLANS.BADGE' | translate }}
+      </div>
+      <h2 class="plans-title">{{ 'PLANS.TITLE' | translate }}</h2>
+      <p class="plans-subtitle">{{ 'PLANS.SUBTITLE' | translate }}</p>
+    </div>
+
+    <!-- Billing Toggle -->
+    <div class="billing-toggle">
+      <button class="toggle-btn" [class.active]="!isAnnual" (click)="setBilling(false)">
+        {{ 'PLANS.MONTHLY' | translate }}
+      </button>
+      <button class="toggle-btn" [class.active]="isAnnual" (click)="setBilling(true)">
+        {{ 'PLANS.ANNUAL' | translate }}
+        <span class="save-badge">{{ 'PLANS.SAVE' | translate }}</span>
+      </button>
+    </div>
+
+    <!-- Plans Grid -->
+    <div class="plans-grid">
+      <!-- Starter Plan -->
+      <div class="plan-card" [class.featured]="false">
+        <div class="plan-content">
+          <h3 class="plan-title">{{ 'PLANS.STARTER.TITLE' | translate }}</h3>
+          <div class="plan-price">
+            <span class="price-amount">{{ 'PLANS.STARTER.PRICE' | translate }}</span>
+          </div>
+          <p class="plan-description">{{ 'PLANS.STARTER.DESCRIPTION' | translate }}</p>
+          <ul class="plan-features">
+            <li *ngFor="let feature of getStarterFeatures()" class="feature-item">
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20,6 9,17 4,12"/>
+              </svg>
+              {{ feature }}
+            </li>
+          </ul>
+          <button class="plan-cta">{{ 'PLANS.STARTER.CTA' | translate }}</button>
+        </div>
+      </div>
+
+      <!-- Pro Plan -->
+      <div class="plan-card featured" [class.featured]="true">
+        <div class="popular-badge">{{ 'PLANS.PRO.POPULAR' | translate }}</div>
+        <div class="plan-content">
+          <h3 class="plan-title">{{ 'PLANS.PRO.TITLE' | translate }}</h3>
+          <div class="plan-price">
+            <span class="price-amount">{{ 'PLANS.PRO.PRICE' | translate }}</span>
+          </div>
+          <p class="plan-description">{{ 'PLANS.PRO.DESCRIPTION' | translate }}</p>
+          <ul class="plan-features">
+            <li *ngFor="let feature of getProFeatures()" class="feature-item">
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20,6 9,17 4,12"/>
+              </svg>
+              {{ feature }}
+            </li>
+          </ul>
+          <button class="plan-cta pro-cta">{{ 'PLANS.PRO.CTA' | translate }}</button>
+        </div>
+      </div>
+
+      <!-- Team Plan -->
+      <div class="plan-card" [class.featured]="false">
+        <div class="plan-content">
+          <h3 class="plan-title">{{ 'PLANS.TEAM.TITLE' | translate }}</h3>
+          <div class="plan-price">
+            <span class="price-amount">{{ 'PLANS.TEAM.PRICE' | translate }}</span>
+          </div>
+          <p class="plan-description">{{ 'PLANS.TEAM.DESCRIPTION' | translate }}</p>
+          <ul class="plan-features">
+            <li *ngFor="let feature of getTeamFeatures()" class="feature-item">
+              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20,6 9,17 4,12"/>
+              </svg>
+              {{ feature }}
+            </li>
+          </ul>
+          <button class="plan-cta">{{ 'PLANS.TEAM.CTA' | translate }}</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Custom Solution -->
+    <div class="custom-solution">
+      <p class="custom-text">{{ 'PLANS.CUSTOM' | translate }}</p>
+      <a href="#" class="custom-link">{{ 'PLANS.CONTACT_SALES' | translate }}</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,210 @@
+{
+  "HEADER": {
+    "FEATURES": "Features",
+    "PRICING": "Pricing",
+    "TESTIMONIALS": "Testimonials",
+    "FAQ": "FAQ",
+    "VALUES": "Values",
+    "TEAM": "Team",
+    "LOGIN": "Log In",
+    "SIGNUP": "Sign Up",
+    "LANGUAGE": "Language"
+  },
+  "HERO": {
+    "BADGE": "Latest component",
+    "TITLE": "Quick Service",
+    "SUBTITLE": "We are like an InDrive but for mechanics and vehicle owners",
+    "DESCRIPTION": "We connect certified mechanics with vehicle owners quickly and reliably. Book your maintenance or repair service in minutes.",
+    "CTA": "Get Started",
+    "TRUSTED": "Trusted by mechanics at"
+  },
+  "FEATURES": {
+    "TITLE": "Features",
+    "SUBTITLE": "Everything you need for a complete automotive service",
+    "CARD1": {
+      "TITLE": "Instant Booking",
+      "DESCRIPTION": "Book your maintenance or repair service in seconds. Our system automatically connects with available mechanics in your area."
+    },
+    "CARD2": {
+      "TITLE": "Certified Mechanics",
+      "DESCRIPTION": "All our mechanics are certified and verified. We work only with trusted professionals to ensure service quality."
+    },
+    "CARD3": {
+      "TITLE": "Real-time Tracking",
+      "DESCRIPTION": "Monitor your service progress in real-time. Receive notifications and constant updates about your vehicle's status."
+    },
+    "CARD4": {
+      "TITLE": "Transparent Pricing",
+      "DESCRIPTION": "No hidden costs or surprises. Know the exact price before confirming your booking and pay securely through the platform."
+    }
+  },
+  "PLANS": {
+    "BADGE": "Pricing",
+    "TITLE": "Choose your plan",
+    "SUBTITLE": "Start building beautiful components today. Upgrade anytime as your needs grow.",
+    "MONTHLY": "Monthly",
+    "ANNUAL": "Annual",
+    "SAVE": "Save 20%",
+    "STARTER": {
+      "TITLE": "Starter",
+      "PRICE": "Free",
+      "DESCRIPTION": "Perfect for getting started with Autonexo",
+      "FEATURES": [
+        "5 services per month",
+        "Basic templates",
+        "Community support",
+        "Standard components"
+      ],
+      "CTA": "Get Started"
+    },
+    "PRO": {
+      "TITLE": "Pro",
+      "PRICE": "$29/month",
+      "DESCRIPTION": "For professionals building serious projects",
+      "FEATURES": [
+        "Unlimited services",
+        "Premium templates",
+        "Priority support",
+        "Advanced animations",
+        "Custom themes",
+        "Export to GitHub"
+      ],
+      "CTA": "Start Free Trial",
+      "POPULAR": "Most Popular"
+    },
+    "TEAM": {
+      "TITLE": "Team",
+      "PRICE": "$99/month",
+      "DESCRIPTION": "For teams collaborating on projects",
+      "FEATURES": [
+        "Everything in Pro",
+        "Team collaboration",
+        "Shared component library",
+        "Advanced analytics",
+        "Custom integrations",
+        "Dedicated support"
+      ],
+      "CTA": "Contact Sales"
+    },
+    "CUSTOM": "Need a custom solution? We're here to help.",
+    "CONTACT_SALES": "Contact our sales team →"
+  },
+  "TESTIMONIALS": {
+    "BADGE": "Testimonials",
+    "TITLE": "What our users say",
+    "SUBTITLE": "From intuitive design to powerful features, our app has become an essential tool for users around the world.",
+    "SHARE": "Share your experience",
+    "TESTIMONIALS": [
+      {
+        "TEXT": "In 2 days using Autonexo. Saved so much development time.",
+        "NAME": "Devon Carter",
+        "HANDLE": "@devninja"
+      },
+      {
+        "TEXT": "Autonexo has completely changed the way I build services. Book, connect, done. No more search stress.",
+        "NAME": "Arjun Mehta",
+        "HANDLE": "@arjdev"
+      },
+      {
+        "TEXT": "Honestly shocked at how smooth the Autonexo services are. Just works perfectly.",
+        "NAME": "Sara Lin",
+        "HANDLE": "@sara.codes"
+      },
+      {
+        "TEXT": "Autonexo helped us connect with multiple mechanics without writing a line of code. Pure magic.",
+        "NAME": "Chloe Winters",
+        "HANDLE": "@chloewinters"
+      },
+      {
+        "TEXT": "Booked some services in Autonexo and everything blended perfectly with my workflow. Massive W.",
+        "NAME": "Priya Shah",
+        "HANDLE": "@priyacodes"
+      },
+      {
+        "TEXT": "Found an excellent mechanic in Autonexo, adjusted the filters, and booked in 15 minutes. Game changer.",
+        "NAME": "James Roy",
+        "HANDLE": "@jamesrdev"
+      },
+      {
+        "TEXT": "As a solo founder, Autonexo lets me move fast without sacrificing service quality. Essential tool.",
+        "NAME": "Ayaan Malik",
+        "HANDLE": "@ayaan_dev"
+      },
+      {
+        "TEXT": "Can't believe how polished the Autonexo services look. Clients are impressed every time.",
+        "NAME": "Monica Reeves",
+        "HANDLE": "@monicareeves"
+      }
+    ]
+  },
+  "FAQ": {
+    "BADGE": "FAQs",
+    "TITLE": "Questions? We've got",
+    "TITLE_ACCENT": "answers",
+    "QUESTIONS": {
+      "0": {
+        "QUESTION": "What is Autonexo exactly?",
+        "ANSWER": "Autonexo is a platform that connects vehicle owners with certified mechanics quickly and reliably. Book maintenance or repair services in minutes."
+      },
+      "1": {
+        "QUESTION": "Do I need technical knowledge to use it?",
+        "ANSWER": "No, Autonexo is designed to be easy to use. You just need to describe your problem and our system will connect you with the right mechanic."
+      },
+      "2": {
+        "QUESTION": "Can I use these services commercially?",
+        "ANSWER": "Yes! All Autonexo services can be used for commercial vehicles. There are no licensing restrictions for using our services."
+      },
+      "3": {
+        "QUESTION": "Are the services reliable and secure?",
+        "ANSWER": "Absolutely. Autonexo verifies all mechanics, includes liability insurance and follows security best practices."
+      },
+      "4": {
+        "QUESTION": "How do I integrate Autonexo into my workflow?",
+        "ANSWER": "Simply download the app, create your profile and start booking services. Autonexo integrates perfectly with your daily routine."
+      }
+    }
+  },
+  "CONTACT": {
+    "TITLE": "Need help?",
+    "SUBTITLE": "We're here to help you with any questions or issues you might have.",
+    "FORM": {
+      "NAME": "Name",
+      "EMAIL": "Email",
+      "SUBJECT": "Subject",
+      "MESSAGE": "Message",
+      "SEND": "Send message"
+    },
+    "INFO": {
+      "PHONE": "Phone",
+      "EMAIL": "Email",
+      "ADDRESS": "Address"
+    }
+  },
+  "VALUES": {
+    "TITLE": "Our Values",
+    "SUBTITLE": "Principles that guide every decision at Autonexo",
+    "CLOSENESS": {
+      "TITLE": "Closeness",
+      "DESCRIPTION": "We listen to our community and grow alongside it."
+    },
+    "TRUST": {
+      "TITLE": "Reliability",
+      "DESCRIPTION": "We build relationships based on trust and accountability."
+    },
+    "EFFICIENCY": {
+      "TITLE": "Efficiency",
+      "DESCRIPTION": "We optimize resources to save time and costs."
+    }
+  },
+  "TEAM": {
+    "TITLE": "Our Team",
+    "SUBTITLE": "Meet the creators of the project",
+    "MEMBERS": {
+      "ANGELO": { "ROLE": "Angelo Solano - u20231B775", "DESC": "Software Engineering student passionate about building practical solutions." },
+      "HENRY": { "ROLE": "Henry Esteban - u202310210", "DESC": "Focused on creating tech solutions with real impact." },
+      "SERGIO": { "ROLE": "Sergio Iglesias - u202316118", "DESC": "Proactive and creative, committed to best development practices." },
+      "VICTOR": { "ROLE": "Victor Cruz - u202311053", "DESC": "Enthusiastic and committed, focused on quality results." },
+      "RAFAEL": { "ROLE": "Rafael Vivanco - u202311064", "DESC": "Responsible and adaptable, brings dedication and a positive attitude." }
+    }
+  }
+}

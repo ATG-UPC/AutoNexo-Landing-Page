@@ -1,0 +1,51 @@
+<header class="header">
+  <div class="container">
+    <div class="logo">
+      <img src="Logo.png" alt="Autonexo Logo" class="logo-img" loading="lazy">
+    </div>
+    <div class="nav-container">
+      <nav class="nav">
+        <a href="#values" class="nav-link">{{ 'HEADER.VALUES' | translate }}</a>
+        <a href="#features" class="nav-link">{{ 'HEADER.FEATURES' | translate }}</a>
+        <a href="#pricing" class="nav-link">{{ 'HEADER.PRICING' | translate }}</a>
+        <a href="#testimonials" class="nav-link">{{ 'HEADER.TESTIMONIALS' | translate }}</a>
+        <a href="#faq" class="nav-link">{{ 'HEADER.FAQ' | translate }}</a>
+        <a href="#team" class="nav-link">{{ 'HEADER.TEAM' | translate }}</a>
+      </nav>
+      <div class="auth-buttons">
+        <a href="#" class="login-link" (click)="goToLogin()">{{ 'HEADER.LOGIN' | translate }}</a>
+        <button class="signup-button" (click)="goToSignup()">{{ 'HEADER.SIGNUP' | translate }}</button>
+        <button class="language-button" (click)="toggleLanguage()">
+          {{ currentLanguage }}
+          <svg class="language-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+      </div>
+      <div class="hamburger" [class.active]="isMobileMenuOpen" (click)="toggleMobileMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <nav class="nav-mobile" [class.active]="isMobileMenuOpen">
+    <a href="#values" class="nav-link" (click)="closeMobileMenu()">{{ 'HEADER.VALUES' | translate }}</a>
+    <a href="#features" class="nav-link" (click)="closeMobileMenu()">{{ 'HEADER.FEATURES' | translate }}</a>
+    <a href="#pricing" class="nav-link" (click)="closeMobileMenu()">{{ 'HEADER.PRICING' | translate }}</a>
+    <a href="#testimonials" class="nav-link" (click)="closeMobileMenu()">{{ 'HEADER.TESTIMONIALS' | translate }}</a>
+    <a href="#faq" class="nav-link" (click)="closeMobileMenu()">{{ 'HEADER.FAQ' | translate }}</a>
+    <a href="#team" class="nav-link" (click)="closeMobileMenu()">{{ 'HEADER.TEAM' | translate }}</a>
+    <div class="mobile-auth">
+      <a href="#" class="login-link" (click)="goToLogin(); closeMobileMenu()">{{ 'HEADER.LOGIN' | translate }}</a>
+      <button class="signup-button" (click)="goToSignup(); closeMobileMenu()">{{ 'HEADER.SIGNUP' | translate }}</button>
+      <button class="language-button" (click)="toggleLanguage()">
+        {{ currentLanguage }}
+        <svg class="language-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,210 @@
+{
+  "HEADER": {
+    "FEATURES": "Características",
+    "PRICING": "Precios",
+    "TESTIMONIALS": "Testimonios",
+    "FAQ": "Preguntas",
+    "VALUES": "Valores",
+    "TEAM": "Equipo",
+    "LOGIN": "Iniciar Sesión",
+    "SIGNUP": "Registrarse",
+    "LANGUAGE": "Idioma"
+  },
+  "HERO": {
+    "BADGE": "Último componente",
+    "TITLE": "Servicio Rápido",
+    "SUBTITLE": "Somos como un InDrive pero de mecánicos y propietarios de vehículos",
+    "DESCRIPTION": "Conectamos mecánicos certificados con propietarios de vehículos de manera rápida y confiable. Reserva tu servicio de mantenimiento o reparación en minutos.",
+    "CTA": "Comenzar",
+    "TRUSTED": "Confianza de mecánicos en"
+  },
+  "FEATURES": {
+    "TITLE": "Características",
+    "SUBTITLE": "Todo lo que necesitas para un servicio automotriz completo",
+    "CARD1": {
+      "TITLE": "Reserva Instantánea",
+      "DESCRIPTION": "Reserva tu servicio de mantenimiento o reparación en segundos. Nuestro sistema conecta automáticamente con mecánicos disponibles en tu zona."
+    },
+    "CARD2": {
+      "TITLE": "Mecánicos Certificados",
+      "DESCRIPTION": "Todos nuestros mecánicos están certificados y verificados. Trabajamos solo con profesionales de confianza para garantizar la calidad del servicio."
+    },
+    "CARD3": {
+      "TITLE": "Seguimiento en Tiempo Real",
+      "DESCRIPTION": "Monitorea el progreso de tu servicio en tiempo real. Recibe notificaciones y actualizaciones constantes sobre el estado de tu vehículo."
+    },
+    "CARD4": {
+      "TITLE": "Precios Transparentes",
+      "DESCRIPTION": "Sin costos ocultos ni sorpresas. Conoce el precio exacto antes de confirmar tu reserva y paga de forma segura a través de la plataforma."
+    }
+  },
+  "PLANS": {
+    "BADGE": "Precios",
+    "TITLE": "Elige tu plan",
+    "SUBTITLE": "Comienza a usar nuestro servicio hoy. Actualiza cuando tus necesidades crezcan.",
+    "MONTHLY": "Mensual",
+    "ANNUAL": "Anual",
+    "SAVE": "Ahorra 20%",
+    "STARTER": {
+      "TITLE": "Básico",
+      "PRICE": "Gratis",
+      "DESCRIPTION": "Perfecto para comenzar con Autonexo",
+      "FEATURES": [
+        "5 servicios por mes",
+        "Plantillas básicas",
+        "Soporte comunitario",
+        "Componentes estándar"
+      ],
+      "CTA": "Comenzar"
+    },
+    "PRO": {
+      "TITLE": "Pro",
+      "PRICE": "$29/mes",
+      "DESCRIPTION": "Para profesionales que construyen proyectos serios",
+      "FEATURES": [
+        "Servicios ilimitados",
+        "Plantillas premium",
+        "Soporte prioritario",
+        "Animaciones avanzadas",
+        "Temas personalizados",
+        "Exportar a GitHub"
+      ],
+      "CTA": "Comenzar Prueba Gratis",
+      "POPULAR": "Más Popular"
+    },
+    "TEAM": {
+      "TITLE": "Equipo",
+      "PRICE": "$99/mes",
+      "DESCRIPTION": "Para equipos colaborando en proyectos",
+      "FEATURES": [
+        "Todo en Pro",
+        "Colaboración en equipo",
+        "Biblioteca compartida",
+        "Analíticas avanzadas",
+        "Integraciones personalizadas",
+        "Soporte dedicado"
+      ],
+      "CTA": "Contactar Ventas"
+    },
+    "CUSTOM": "¿Necesitas una solución personalizada? Estamos aquí para ayudar.",
+    "CONTACT_SALES": "Contacta nuestro equipo de ventas →"
+  },
+  "TESTIMONIALS": {
+    "BADGE": "Testimonios",
+    "TITLE": "Lo que dicen nuestros usuarios",
+    "SUBTITLE": "Desde diseño intuitivo hasta características poderosas, nuestra app se ha convertido en una herramienta esencial para usuarios alrededor del mundo.",
+    "SHARE": "Comparte tu experiencia",
+    "TESTIMONIALS": [
+      {
+        "TEXT": "En 2 días usando Autonexo. Ahorré mucho tiempo de desarrollo.",
+        "NAME": "Devon Carter",
+        "HANDLE": "@devninja"
+      },
+      {
+        "TEXT": "Autonexo ha cambiado completamente la forma en que construyo servicios. Reserva, conecta, listo. Sin más estrés de búsqueda.",
+        "NAME": "Arjun Mehta",
+        "HANDLE": "@arjdev"
+      },
+      {
+        "TEXT": "Honestamente sorprendido de lo suave que son los servicios de Autonexo. Funciona perfectamente.",
+        "NAME": "Sara Lin",
+        "HANDLE": "@sara.codes"
+      },
+      {
+        "TEXT": "Autonexo nos ayudó a conectar con múltiples mecánicos sin escribir una línea de código. Pura magia.",
+        "NAME": "Chloe Winters",
+        "HANDLE": "@chloewinters"
+      },
+      {
+        "TEXT": "Reservé algunos servicios en Autonexo y todo se integró perfectamente con mi flujo de trabajo. Gran victoria.",
+        "NAME": "Priya Shah",
+        "HANDLE": "@priyacodes"
+      },
+      {
+        "TEXT": "Encontré un mecánico excelente en Autonexo, ajusté los filtros, y reservé en 15 minutos. Cambio de juego.",
+        "NAME": "James Roy",
+        "HANDLE": "@jamesrdev"
+      },
+      {
+        "TEXT": "Como emprendedor solitario, Autonexo me permite moverme rápido sin sacrificar la calidad del servicio. Herramienta esencial.",
+        "NAME": "Ayaan Malik",
+        "HANDLE": "@ayaan_dev"
+      },
+      {
+        "TEXT": "No puedo creer lo pulidos que se ven los servicios de Autonexo. Los clientes quedan impresionados cada vez.",
+        "NAME": "Monica Reeves",
+        "HANDLE": "@monicareeves"
+      }
+    ]
+  },
+  "FAQ": {
+    "BADGE": "Preguntas",
+    "TITLE": "¿Preguntas? Tenemos",
+    "TITLE_ACCENT": "respuestas",
+    "QUESTIONS": {
+      "0": {
+        "QUESTION": "¿Qué es Autonexo exactamente?",
+        "ANSWER": "Autonexo es una plataforma que conecta propietarios de vehículos con mecánicos certificados de manera rápida y confiable. Reserva servicios de mantenimiento o reparación en minutos."
+      },
+      "1": {
+        "QUESTION": "¿Necesito conocimientos técnicos para usarlo?",
+        "ANSWER": "No, Autonexo está diseñado para ser fácil de usar. Solo necesitas describir tu problema y nuestro sistema te conectará con el mecánico adecuado."
+      },
+      "2": {
+        "QUESTION": "¿Puedo usar estos servicios comercialmente?",
+        "ANSWER": "¡Sí! Todos los servicios de Autonexo pueden ser utilizados para vehículos comerciales. No hay restricciones de licencia para usar nuestros servicios."
+      },
+      "3": {
+        "QUESTION": "¿Los servicios son confiables y seguros?",
+        "ANSWER": "Absolutamente. Autonexo verifica a todos los mecánicos, incluye seguros de responsabilidad civil y sigue las mejores prácticas de seguridad."
+      },
+      "4": {
+        "QUESTION": "¿Cómo integro Autonexo en mi flujo de trabajo?",
+        "ANSWER": "Simplemente descarga la app, crea tu perfil y comienza a reservar servicios. Autonexo se integra perfectamente con tu rutina diaria."
+      }
+    }
+  },
+  "CONTACT": {
+    "TITLE": "¿Necesitas ayuda?",
+    "SUBTITLE": "Estamos aquí para ayudarte con cualquier pregunta o problema que puedas tener.",
+    "FORM": {
+      "NAME": "Nombre",
+      "EMAIL": "Correo electrónico",
+      "SUBJECT": "Asunto",
+      "MESSAGE": "Mensaje",
+      "SEND": "Enviar mensaje"
+    },
+    "INFO": {
+      "PHONE": "Teléfono",
+      "EMAIL": "Correo",
+      "ADDRESS": "Dirección"
+    }
+  },
+  "VALUES": {
+    "TITLE": "Nuestros Valores",
+    "SUBTITLE": "Principios que guían cada decisión en Autonexo",
+    "CLOSENESS": {
+      "TITLE": "Cercanía",
+      "DESCRIPTION": "Escuchamos a nuestra comunidad y crecemos junto a ella."
+    },
+    "TRUST": {
+      "TITLE": "Confiabilidad",
+      "DESCRIPTION": "Construimos relaciones basadas en confianza y cumplimiento."
+    },
+    "EFFICIENCY": {
+      "TITLE": "Eficiencia",
+      "DESCRIPTION": "Optimizamos recursos para ahorrar tiempo y costos."
+    }
+  },
+  "TEAM": {
+    "TITLE": "Nuestro Equipo",
+    "SUBTITLE": "Conoce a los creadores del proyecto",
+    "MEMBERS": {
+      "ANGELO": { "ROLE": "Angelo Solano - u20231B775", "DESC": "Estudiante de Ingeniería de Software apasionado por crear soluciones prácticas." },
+      "HENRY": { "ROLE": "Henry Esteban - u202310210", "DESC": "Enfocado en desarrollar soluciones tecnológicas con impacto." },
+      "SERGIO": { "ROLE": "Sergio Iglesias - u202316118", "DESC": "Proactivo y creativo, orientado a mejores prácticas de desarrollo." },
+      "VICTOR": { "ROLE": "Victor Cruz - u202311053", "DESC": "Comprometido y entusiasta, enfocado en resultados de calidad." },
+      "RAFAEL": { "ROLE": "Rafael Vivanco - u202311064", "DESC": "Responsable y adaptable, aporta dedicación y actitud positiva." }
+    }
+  }
+}

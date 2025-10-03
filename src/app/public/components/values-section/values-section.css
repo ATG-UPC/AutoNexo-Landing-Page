@@ -1,0 +1,12 @@
+.values-section { padding: 64px 0; background: #e5effa; }
+.section-header { text-align: center; margin-bottom: 32px; }
+.title { font-size: 32px; margin: 0 0 8px 0; color: #1f2937; }
+.subtitle { color: #475569; margin: 0; }
+.values-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
+.value-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 16px; text-align: center; box-shadow: 0 6px 20px rgba(2, 6, 23, 0.08); transition: transform .25s ease, box-shadow .25s ease; }
+.value-card:hover { transform: translateY(-6px); box-shadow: 0 12px 28px rgba(2, 6, 23, 0.14); }
+.value-image { width: 100%; height: 180px; object-fit: cover; border-radius: 10px; margin-bottom: 12px; transition: transform .4s ease; }
+.value-card:hover .value-image { transform: scale(1.03); }
+.value-title { margin: 8px 0 4px 0; font-size: 18px; color: #0f172a; }
+.value-desc { margin: 0; color: #64748b; }
+
