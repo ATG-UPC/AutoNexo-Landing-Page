@@ -11,10 +11,10 @@
     "LANGUAGE": "Idioma"
   },
   "HERO": {
-    "BADGE": "Último componente",
-    "TITLE": "Servicio Rápido",
-    "SUBTITLE": "Somos como un InDrive pero de mecánicos y propietarios de vehículos",
-    "DESCRIPTION": "Conectamos mecánicos certificados con propietarios de vehículos de manera rápida y confiable. Reserva tu servicio de mantenimiento o reparación en minutos.",
+    "BADGE": "Mantenimiento Vehicular sin Complicaciones",
+    "TITLE": "AUTONEXO",
+    "SUBTITLE": "Somos la app que conecta a conductores con mecánicos certificados en minutos.",
+    "DESCRIPTION": "Autonexo digitaliza el mantenimiento automotriz: solicita servicios, recibe cotizaciones y gestiona el historial de tu vehículo de forma rápida, transparente y confiable.",
     "CTA": "Comenzar",
     "TRUSTED": "Confianza de mecánicos en"
   },
@@ -45,46 +45,16 @@
     "MONTHLY": "Mensual",
     "ANNUAL": "Anual",
     "SAVE": "Ahorra 20%",
-    "STARTER": {
-      "TITLE": "Básico",
-      "PRICE": "Gratis",
-      "DESCRIPTION": "Perfecto para comenzar con Autonexo",
-      "FEATURES": [
-        "5 servicios por mes",
-        "Plantillas básicas",
-        "Soporte comunitario",
-        "Componentes estándar"
-      ],
-      "CTA": "Comenzar"
-    },
     "PRO": {
       "TITLE": "Pro",
-      "PRICE": "$29/mes",
-      "DESCRIPTION": "Para profesionales que construyen proyectos serios",
-      "FEATURES": [
-        "Servicios ilimitados",
-        "Plantillas premium",
-        "Soporte prioritario",
-        "Animaciones avanzadas",
-        "Temas personalizados",
-        "Exportar a GitHub"
-      ],
-      "CTA": "Comenzar Prueba Gratis",
-      "POPULAR": "Más Popular"
+      "DESCRIPTION": "Primeros pasos para unirte al equipo de Autonexo y hacer crecer tu negocio.",
+      "CTA": "Unirme a Pro"
     },
-    "TEAM": {
-      "TITLE": "Equipo",
-      "PRICE": "$99/mes",
-      "DESCRIPTION": "Para equipos colaborando en proyectos",
-      "FEATURES": [
-        "Todo en Pro",
-        "Colaboración en equipo",
-        "Biblioteca compartida",
-        "Analíticas avanzadas",
-        "Integraciones personalizadas",
-        "Soporte dedicado"
-      ],
-      "CTA": "Contactar Ventas"
+    "PREMIUM": {
+      "TITLE": "Premium",
+      "DESCRIPTION": "Ideal para talleres que buscan expandir sus servicios y capacidades técnicas.",
+      "CTA": "Unirme a Premium",
+      "POPULAR": "Más Popular"
     },
     "CUSTOM": "¿Necesitas una solución personalizada? Estamos aquí para ayudar.",
     "CONTACT_SALES": "Contacta nuestro equipo de ventas →"
@@ -206,5 +176,39 @@
       "VICTOR": { "ROLE": "Victor Cruz - u202311053", "DESC": "Comprometido y entusiasta, enfocado en resultados de calidad." },
       "RAFAEL": { "ROLE": "Rafael Vivanco - u202311064", "DESC": "Responsable y adaptable, aporta dedicación y actitud positiva." }
     }
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Conectamos conductores con mecánicos certificados para un mantenimiento vehicular sin complicaciones. Descarga nuestra app y experimenta el futuro del servicio automotriz.",
+    "DOWNLOAD_APP": "Descarga la App",
+    "DOWNLOAD_ON": "Descargar en",
+    "GET_IT_ON": "Disponible en",
+    "APP_STORE": "App Store",
+    "GOOGLE_PLAY": "Google Play",
+    "QUICK_LINKS": "Enlaces Rápidos",
+    "FEATURES": "Características",
+    "PRICING": "Precios",
+    "TESTIMONIALS": "Testimonios",
+    "FAQ": "Preguntas",
+    "ABOUT": "Acerca de",
+    "APP_FEATURES": "Funciones de la App",
+    "BOOK_SERVICE": "Reservar Servicio",
+    "FIND_MECHANIC": "Encontrar Mecánico",
+    "TRACK_SERVICE": "Seguir Servicio",
+    "VEHICLE_HISTORY": "Historial Vehicular",
+    "EMERGENCY": "Servicio de Emergencia",
+    "SUPPORT": "Soporte",
+    "HELP_CENTER": "Centro de Ayuda",
+    "CONTACT_US": "Contáctanos",
+    "BECOME_MECHANIC": "Ser Mecánico",
+    "PARTNERSHIP": "Asociaciones",
+    "CAREERS": "Carreras",
+    "STAY_UPDATED": "Mantente Actualizado",
+    "NEWSLETTER_DESC": "Recibe las últimas noticias, actualizaciones y ofertas especiales de AutoNexo directamente en tu bandeja de entrada.",
+    "EMAIL_PLACEHOLDER": "Tu dirección de email",
+    "ALL_RIGHTS_RESERVED": "Todos los derechos reservados",
+    "PRIVACY_POLICY": "Política de Privacidad",
+    "TERMS_SERVICE": "Términos de Servicio",
+    "COOKIE_POLICY": "Política de Cookies",
+    "ACCESSIBILITY": "Accesibilidad"
   }
 }

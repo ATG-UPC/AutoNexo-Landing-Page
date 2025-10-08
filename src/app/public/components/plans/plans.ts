@@ -15,34 +15,32 @@ export class PlansComponent {
     this.isAnnual = isAnnual;
   }
 
-  getStarterFeatures(): string[] {
-    return [
-      '5 servicios por mes',
-      'Plantillas básicas',
-      'Soporte comunitario',
-      'Componentes estándar'
-    ];
+  getProPrice(): string {
+    return this.isAnnual ? '$100 ' : '$10 ';
+  }
+
+  getPremiumPrice(): string {
+    return this.isAnnual ? '$200 ' : '$20 ';
   }
 
   getProFeatures(): string[] {
     return [
-      'Servicios ilimitados',
-      'Plantillas premium',
-      'Soporte prioritario',
-      'Animaciones avanzadas',
-      'Temas personalizados',
-      'Exportar a GitHub'
+      'Gestión de perfil y servicios',
+      'Catálogo de precios',
+      'Reportes de servicio',
+      'Pagos integrados',
+      'Hasta 50 clientes activos'
     ];
   }
 
-  getTeamFeatures(): string[] {
+  getPremiumFeatures(): string[] {
     return [
-      'Todo en Pro',
-      'Colaboración en equipo',
-      'Biblioteca compartida',
-      'Analíticas avanzadas',
-      'Integraciones personalizadas',
-      'Soporte dedicado'
+      'Gestión multisede',
+      'Marketing y promociones',
+      'Reportes financieros',
+      'APIs e integraciones',
+      'Clientes y mecánicos ilimitados',
+      'Soporte técnico prioritario'
     ];
   }
 }

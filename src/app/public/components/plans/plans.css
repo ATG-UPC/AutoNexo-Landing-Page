@@ -126,10 +126,13 @@
 /* Plans Grid */
 .plans-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 32px;
   margin-bottom: 80px;
   animation: fadeInUp 0.8s ease-out 0.8s both;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Plan Card */
@@ -336,6 +339,7 @@
   .plans-grid {
     grid-template-columns: 1fr;
     gap: 24px;
+    max-width: 100%;
   }
   
   .plan-card {

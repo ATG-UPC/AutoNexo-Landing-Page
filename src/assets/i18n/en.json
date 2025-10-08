@@ -11,16 +11,16 @@
     "LANGUAGE": "Language"
   },
   "HERO": {
-    "BADGE": "Latest component",
-    "TITLE": "Quick Service",
-    "SUBTITLE": "We are like an InDrive but for mechanics and vehicle owners",
-    "DESCRIPTION": "We connect certified mechanics with vehicle owners quickly and reliably. Book your maintenance or repair service in minutes.",
+    "BADGE": "Vehicle Maintenance Without Complications",
+    "TITLE": "AUTONEXO",
+    "SUBTITLE": "We are the app that connects drivers with certified mechanics in minutes.",
+    "DESCRIPTION": "Autonexo digitizes automotive maintenance: request services, receive quotes and manage your vehicle's history quickly, transparently and reliably.",
     "CTA": "Get Started",
     "TRUSTED": "Trusted by mechanics at"
   },
   "FEATURES": {
     "TITLE": "Features",
-    "SUBTITLE": "Everything you need for a complete automotive service",
+    "SUBTITLE": "Everything, all that you want  you need for a complete automotive service",
     "CARD1": {
       "TITLE": "Instant Booking",
       "DESCRIPTION": "Book your maintenance or repair service in seconds. Our system automatically connects with available mechanics in your area."
@@ -45,46 +45,16 @@
     "MONTHLY": "Monthly",
     "ANNUAL": "Annual",
     "SAVE": "Save 20%",
-    "STARTER": {
-      "TITLE": "Starter",
-      "PRICE": "Free",
-      "DESCRIPTION": "Perfect for getting started with Autonexo",
-      "FEATURES": [
-        "5 services per month",
-        "Basic templates",
-        "Community support",
-        "Standard components"
-      ],
-      "CTA": "Get Started"
-    },
     "PRO": {
       "TITLE": "Pro",
-      "PRICE": "$29/month",
-      "DESCRIPTION": "For professionals building serious projects",
-      "FEATURES": [
-        "Unlimited services",
-        "Premium templates",
-        "Priority support",
-        "Advanced animations",
-        "Custom themes",
-        "Export to GitHub"
-      ],
-      "CTA": "Start Free Trial",
-      "POPULAR": "Most Popular"
+      "DESCRIPTION": "First steps to join Autonexo's team and improve your business.",
+      "CTA": "Join Pro"
     },
-    "TEAM": {
-      "TITLE": "Team",
-      "PRICE": "$99/month",
-      "DESCRIPTION": "For teams collaborating on projects",
-      "FEATURES": [
-        "Everything in Pro",
-        "Team collaboration",
-        "Shared component library",
-        "Advanced analytics",
-        "Custom integrations",
-        "Dedicated support"
-      ],
-      "CTA": "Contact Sales"
+    "PREMIUM": {
+      "TITLE": "Premium",
+      "DESCRIPTION": "Perfect for serious businesses looking to expand their services and technical capabilities.",
+      "CTA": "Join Premium",
+      "POPULAR": "Most Popular"
     },
     "CUSTOM": "Need a custom solution? We're here to help.",
     "CONTACT_SALES": "Contact our sales team →"
@@ -206,5 +176,39 @@
       "VICTOR": { "ROLE": "Victor Cruz - u202311053", "DESC": "Enthusiastic and committed, focused on quality results." },
       "RAFAEL": { "ROLE": "Rafael Vivanco - u202311064", "DESC": "Responsible and adaptable, brings dedication and a positive attitude." }
     }
+  },
+  "FOOTER": {
+    "DESCRIPTION": "We connect drivers with certified mechanics for hassle-free vehicle maintenance. Download our app and experience the future of automotive service.",
+    "DOWNLOAD_APP": "Download the App",
+    "DOWNLOAD_ON": "Download on the",
+    "GET_IT_ON": "Get it on",
+    "APP_STORE": "App Store",
+    "GOOGLE_PLAY": "Google Play",
+    "QUICK_LINKS": "Quick Links",
+    "FEATURES": "Features",
+    "PRICING": "Pricing",
+    "TESTIMONIALS": "Testimonials",
+    "FAQ": "FAQ",
+    "ABOUT": "About",
+    "APP_FEATURES": "App Features",
+    "BOOK_SERVICE": "Book Service",
+    "FIND_MECHANIC": "Find Mechanic",
+    "TRACK_SERVICE": "Track Service",
+    "VEHICLE_HISTORY": "Vehicle History",
+    "EMERGENCY": "Emergency Service",
+    "SUPPORT": "Support",
+    "HELP_CENTER": "Help Center",
+    "CONTACT_US": "Contact Us",
+    "BECOME_MECHANIC": "Become a Mechanic",
+    "PARTNERSHIP": "Partnerships",
+    "CAREERS": "Careers",
+    "STAY_UPDATED": "Stay Updated",
+    "NEWSLETTER_DESC": "Get the latest news, updates, and special offers from AutoNexo delivered straight to your inbox.",
+    "EMAIL_PLACEHOLDER": "Your email address",
+    "ALL_RIGHTS_RESERVED": "All rights reserved",
+    "PRIVACY_POLICY": "Privacy Policy",
+    "TERMS_SERVICE": "Terms of Service",
+    "COOKIE_POLICY": "Cookie Policy",
+    "ACCESSIBILITY": "Accessibility"
   }
 }

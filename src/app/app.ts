@@ -9,10 +9,11 @@ import { FaqQuestionsComponent } from './public/components/faq-questions/faq-que
 import { FaqContactComponent } from './public/components/faq-contact/faq-contact';
 import { ValuesSection } from './public/components/values-section/values-section';
 import { DataSection } from './public/components/data-section/data-section';
+import {FooterComponent} from './public/components/footer/footer';
 
 @Component({
   selector: 'app-root',
-  imports: [TranslateModule, HeaderComponent, HeroComponent, FeaturesComponent, PlansComponent, TestimonialsComponent, FaqQuestionsComponent, FaqContactComponent, ValuesSection, DataSection],
+  imports: [TranslateModule, HeaderComponent, HeroComponent, FeaturesComponent, PlansComponent, TestimonialsComponent, FaqQuestionsComponent, FaqContactComponent, ValuesSection, DataSection, FooterComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

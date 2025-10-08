@@ -19,4 +19,5 @@ export class HeroComponent {
     // Aquí puedes agregar la URL de login cuando la tengas
     console.log('Navegando al login...');
   }
+
 }

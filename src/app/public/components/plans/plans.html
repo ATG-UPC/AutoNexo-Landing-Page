@@ -25,33 +25,12 @@
 
     <!-- Plans Grid -->
     <div class="plans-grid">
-      <!-- Starter Plan -->
-      <div class="plan-card" [class.featured]="false">
-        <div class="plan-content">
-          <h3 class="plan-title">{{ 'PLANS.STARTER.TITLE' | translate }}</h3>
-          <div class="plan-price">
-            <span class="price-amount">{{ 'PLANS.STARTER.PRICE' | translate }}</span>
-          </div>
-          <p class="plan-description">{{ 'PLANS.STARTER.DESCRIPTION' | translate }}</p>
-          <ul class="plan-features">
-            <li *ngFor="let feature of getStarterFeatures()" class="feature-item">
-              <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="20,6 9,17 4,12"/>
-              </svg>
-              {{ feature }}
-            </li>
-          </ul>
-          <button class="plan-cta">{{ 'PLANS.STARTER.CTA' | translate }}</button>
-        </div>
-      </div>
-
       <!-- Pro Plan -->
-      <div class="plan-card featured" [class.featured]="true">
-        <div class="popular-badge">{{ 'PLANS.PRO.POPULAR' | translate }}</div>
+      <div class="plan-card" [class.featured]="false">
         <div class="plan-content">
           <h3 class="plan-title">{{ 'PLANS.PRO.TITLE' | translate }}</h3>
           <div class="plan-price">
-            <span class="price-amount">{{ 'PLANS.PRO.PRICE' | translate }}</span>
+            <span class="price-amount">{{ getProPrice() }}</span>
           </div>
           <p class="plan-description">{{ 'PLANS.PRO.DESCRIPTION' | translate }}</p>
           <ul class="plan-features">
@@ -62,27 +41,28 @@
               {{ feature }}
             </li>
           </ul>
-          <button class="plan-cta pro-cta">{{ 'PLANS.PRO.CTA' | translate }}</button>
+          <button class="plan-cta">{{ 'PLANS.PRO.CTA' | translate }}</button>
         </div>
       </div>
 
-      <!-- Team Plan -->
-      <div class="plan-card" [class.featured]="false">
+      <!-- Premium Plan -->
+      <div class="plan-card featured" [class.featured]="true">
+        <div class="popular-badge">{{ 'PLANS.PREMIUM.POPULAR' | translate }}</div>
         <div class="plan-content">
-          <h3 class="plan-title">{{ 'PLANS.TEAM.TITLE' | translate }}</h3>
+          <h3 class="plan-title">{{ 'PLANS.PREMIUM.TITLE' | translate }}</h3>
           <div class="plan-price">
-            <span class="price-amount">{{ 'PLANS.TEAM.PRICE' | translate }}</span>
+            <span class="price-amount">{{ getPremiumPrice() }}</span>
           </div>
-          <p class="plan-description">{{ 'PLANS.TEAM.DESCRIPTION' | translate }}</p>
+          <p class="plan-description">{{ 'PLANS.PREMIUM.DESCRIPTION' | translate }}</p>
           <ul class="plan-features">
-            <li *ngFor="let feature of getTeamFeatures()" class="feature-item">
+            <li *ngFor="let feature of getPremiumFeatures()" class="feature-item">
               <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="20,6 9,17 4,12"/>
               </svg>
               {{ feature }}
             </li>
           </ul>
-          <button class="plan-cta">{{ 'PLANS.TEAM.CTA' | translate }}</button>
+          <button class="plan-cta pro-cta">{{ 'PLANS.PREMIUM.CTA' | translate }}</button>
         </div>
       </div>
     </div>
