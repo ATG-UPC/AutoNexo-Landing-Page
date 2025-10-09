@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
-import { LanguageService } from '../../../../../../landing/AutoNexo-Landing-Page-main/src/app/core/services/language.service.components';
+import { LanguageService } from '../../../core/services/language.service.components';
 import { Subscription } from 'rxjs';
 
 @Component({
