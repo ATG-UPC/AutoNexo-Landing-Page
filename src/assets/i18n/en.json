@@ -12,10 +12,11 @@
   },
   "HERO": {
     "BADGE": "Vehicle Maintenance Without Complications",
-    "TITLE": "AUTONEXO",
+    "TITLE": "Simplify your vehicle maintenance with Autonexo",
     "SUBTITLE": "We are the app that connects drivers with certified mechanics in minutes.",
     "DESCRIPTION": "Autonexo digitizes automotive maintenance: request services, receive quotes and manage your vehicle's history quickly, transparently and reliably.",
     "CTA": "Get Started",
+    "SCROLL":"Scroll down to learn more ↓",
     "TRUSTED": "Trusted by mechanics at"
   },
   "FEATURES": {
