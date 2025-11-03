@@ -1,0 +1,244 @@
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, var(--black) 0%, var(--secondary-steel-blue) 50%, var(--black) 100%);
+    color: var(--primary-white);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    padding: 0 2em;
+    margin-top: 4.4em;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 30% 20%, rgba(128, 12, 31, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 70% 80%, rgba(66, 165, 245, 0.1) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+/* Main Title */
+.hero-title {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.1;
+    background: linear-gradient(135deg, var(--primary-white) 0%, var(--gray-1) 50%, var(--gray-2) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+    animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+/* Subtitle */
+.hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--gray-2);
+    font-style: italic;
+    animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+/* Description */
+.hero-description {
+    font-size: 1.125rem;
+    color: var(--gray-2);
+    max-width: 600px;
+    line-height: 1.6;
+    animation: fadeInUp 0.8s ease-out 0.6s both;
+}
+
+.hero-content {
+    max-width: 600px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.scroll-down {
+    color: #800C1F;
+    font-weight: 600;
+    font-size: 1.4rem;
+    animation: fadeInUp 0.8s ease-out 0.6s both;
+}
+
+/* App Download Section */
+
+.download-buttons {
+    display: flex;
+    gap: 12px;
+    animation: fadeInUp 0.8s ease-out 0.6s both;
+}
+
+.download-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(40, 40, 40, 0.8);
+    border: 1px solid var(--secondary-dark-red);
+    border-radius: 8px;
+    padding: 12px 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.download-btn:hover {
+    background: linear-gradient(135deg, var(--secondary-crimson), var(--secondary-dark-red));
+    border-color: var(--secondary-crimson);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(128, 12, 31, 0.3);
+}
+
+.download-icon {
+    color: var(--primary-white);
+    flex-shrink: 0;
+}
+
+.download-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.download-label {
+    font-size: 0.75rem;
+    color: var(--gray-2);
+    line-height: 1;
+}
+
+.download-store {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-white);
+    line-height: 1.2;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.car-silhouette {
+    position: absolute;
+    bottom: 0;
+    left: -70%;
+    max-width: 700px;
+    z-index: -1;
+    opacity: 0;
+    transform: translateX(60px);
+    animation: slideInRight 0.7s ease-out 1s forwards;
+}
+
+.phone-preview {
+    max-width: 380px;
+    max-height: 715px;
+    opacity: 0;
+    animation: fadeInUp 0.7s ease-out 0.1s forwards;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+    opacity: 0;
+    transform: translateY(30px);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+    opacity: 0;
+    transform: translateX(60px);
+    }
+    100% {
+    opacity: 0.7;
+    transform: translateX(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+
+.hero{
+    padding-top: 1em ;
+}
+
+.container {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+.hero-title {
+    font-size: 2.5rem;
+    text-align: center;
+    }
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    text-align: center;
+    }
+
+.hero-description {
+    font-size: 1rem;
+    text-align: center;
+    }
+
+.scroll-down {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.download-buttons{
+    justify-content: center;
+    }
+
+.car-silhouette{
+    display: none;
+}
+
+}
+
+@media (max-width: 480px) {
+
+.hero-title {
+    font-size: 2rem;
+    }
+
+.hero-subtitle {
+    font-size: 1.125rem;
+}
+
+.download-buttons{
+    flex-direction: column;
+    }
+
+.hero-image{
+    display: flex;
+    justify-content: center;
+}
+
+.phone-preview {
+    width: 90%;
+}
+}
+
