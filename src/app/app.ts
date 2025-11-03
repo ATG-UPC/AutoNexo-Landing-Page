@@ -1,7 +1,6 @@
 import { Component, signal, OnInit } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { HeaderComponent } from './public/components/header/header';
-import { HeroComponent } from './public/components/hero/hero';
 import { FeaturesComponent } from './public/components/features/features';
 import { PlansComponent } from './public/components/plans/plans';
 import { TestimonialsComponent } from './public/components/testimonials/testimonials';
@@ -10,10 +9,11 @@ import { FaqContactComponent } from './public/components/faq-contact/faq-contact
 import { ValuesSection } from './public/components/values-section/values-section';
 import { DataSection } from './public/components/data-section/data-section';
 import {FooterComponent} from './public/components/footer/footer';
+import { HeroSection } from "./public/components/hero-section/hero-section";
 
 @Component({
   selector: 'app-root',
-  imports: [TranslateModule, HeaderComponent, HeroComponent, FeaturesComponent, PlansComponent, TestimonialsComponent, FaqQuestionsComponent, FaqContactComponent, ValuesSection, DataSection, FooterComponent],
+  imports: [TranslateModule, HeaderComponent, FeaturesComponent, PlansComponent, TestimonialsComponent, FaqQuestionsComponent, FaqContactComponent, ValuesSection, DataSection, FooterComponent, HeroSection],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
