@@ -35,7 +35,7 @@
 
 /* Main Title */
 .hero-title {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 800;
     line-height: 1.1;
     background: linear-gradient(135deg, var(--primary-white) 0%, var(--gray-1) 50%, var(--gray-2) 100%);
@@ -48,7 +48,7 @@
 
 /* Subtitle */
 .hero-subtitle {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
     color: var(--gray-2);
     font-style: italic;
@@ -57,7 +57,7 @@
 
 /* Description */
 .hero-description {
-    font-size: 1.125rem;
+    font-size: 1.120rem;
     color: var(--gray-2);
     max-width: 600px;
     line-height: 1.6;
@@ -75,7 +75,7 @@
 .scroll-down {
     color: #800C1F;
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     animation: fadeInUp 0.8s ease-out 0.6s both;
 }
 
@@ -147,8 +147,8 @@
 }
 
 .phone-preview {
-    max-width: 380px;
-    max-height: 715px;
+    max-width: 300px;
+    max-height: 630px;
     opacity: 0;
     animation: fadeInUp 0.7s ease-out 0.1s forwards;
 }
@@ -161,7 +161,7 @@
     }
     to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-20px);
     }
 }
 
